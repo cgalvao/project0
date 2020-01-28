@@ -1,3 +1,3 @@
 import numpy as np
-a = np.zeros(50)
+a = np.zeros(100)
 print(a)
