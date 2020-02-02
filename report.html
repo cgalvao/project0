@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="cm-emc_main.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<html>
+    <head>
+        <title>CM EMC Report</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="header">
+            <a href="index.html">CM EMC website</a>
+        </div>
+        <div class="nav"> 
+            <a href="management.html">Management Area</a>
+            <a href="assignment.html">Assignement</a>
+            <a href="report.html">Report</a>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h5>Teacher ocupation</h5>
+                    All
+                    <p>or choose </p>
+                    <form>
+                        <input list="teacher" name="Teacher">
+                        <datalist id="teacher">
+                        <option value="John">
+                        <option value="Joe">
+                        <option value="Claude">
+                        <option value="Pierre">
+                        <option value="Amadhi">
+                        </datalist>
+                        <input type="submit">
+                    </form>
+                </div>
+                <div class="col-sm">
+                    <h5>Classroom ocupation</h5>
+                    All
+                    <p>or choose </p>
+                        <form>
+                            <input list="rooms" name="Classroom">
+                            <datalist id="rooms">
+                              <option value="B9">
+                              <option value="B10">
+                              <option value="B11">
+                              <option value="B12">
+                              <option value="B13">
+                            </datalist>
+                            <input type="submit">
+                        </form>
+                </div>
+                <div class="col-sm">
+                    <h5>Timetable</h5>
+                        <form><!--Select courses-->
+                            <input list="courses" name="Courses">
+                            <datalist id="courses">
+                                <option value="EE">
+                                <option value="EC">
+                                <option value="EM"> 
+                              </datalist>                            
+                        </form> 
+                        <br>
+                        <form><!--Select term-->
+                            <input list="terms" name="Term">
+                            <datalist id="terms">
+                                <option value="1">
+                                <option value="2">
+                                <option value="3">
+                                <option value="4">
+                                <option value="5">
+                                <option value="6">
+                                <option value="7">
+                                <option value="8">    
+                                <option value="9">                                  
+                                <option value="10">  
+                                <option value="11">                                  
+                                <option value="12">                                      
+                              </datalist>   
+                              <input type="submit">                         
+                        </form> 
+                </div>
+            </div>
+        </div>
+        <div id="myfootnote">
+            &copy; 2020
+        </div>        
+    </body>
+</html>
